@@ -1,4 +1,4 @@
-import { Spotlight } from "../components/ui/spotlight.tsx";
+import { Spotlight } from "../../components/ui/spotlight"; // Updated path
 
 const Hero = () => {
     return (
