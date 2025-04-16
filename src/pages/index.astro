@@ -1,11 +1,30 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Overview from './index/Overview.tsx'; // Import the new Overview component
+import Footer from '../components/Footer.tsx'; // Import the Footer component
 ---
 
-<Layout title="Home">
-	<Welcome />
+<Layout title="Rechtliche Hinweise - Übersicht">
+	<main class="bg-black min-h-screen flex flex-col"> {/* Ensure dark background and full height */}
+		<div class="flex-grow"> {/* Make Overview take available space */}
+			<Overview client:load /> {/* Use the Overview component */}
+		</div>
+		<Footer client:visible /> {/* Add the Footer */}
+	</main>
 </Layout>
+
+<style is:global>
+	/* Ensure body takes full height if needed, though global.css might handle this */
+	body {
+		min-height: 100vh;
+		background-color: #000; /* Ensure background is black */
+		display: flex;
+		flex-direction: column;
+	}
+	html {
+		height: 100%;
+	}
+	main {
+		flex-grow: 1; /* Ensure main takes up remaining space */
+	}
+</style>

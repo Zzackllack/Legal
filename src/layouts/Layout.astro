@@ -14,6 +14,7 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/png" href="/media/Designer.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<link rel="stylesheet" href="/src/styles/global.css" />
 	</head>
 	<body>
 		<slot />
@@ -28,7 +29,3 @@ const { title } = Astro.props;
 		height: 100%;
 	}
 </style>
-
-<script>
-	import '../styles/global.css';
-</script>
