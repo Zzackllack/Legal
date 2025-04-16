@@ -1,48 +1,66 @@
-# Astro Starter Kit: Basics
+# 🚀 Legal Zacklack
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to the **Legal Zacklack** repo! This repository contains a modern, sleek, and responsive legal information website built with [Astro](https://astro.build), [React](https://reactjs.org/), and [Tailwind CSS](https://tailwindcss.com/). The project is designed to provide comprehensive legal pages such as Privacy Policy, Terms of Use, Impressum, and Cookie Policy for the webpages under [zacklack.de](https://zacklack.de).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 📂 Project Structure
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The project is organized as follows:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
+```plaintext
 ├── public/
-│   └── favicon.svg
+│   └── media/          # Static assets like images
 ├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/     # Reusable UI components
+│   ├── layouts/        # Layout components
+│   ├── pages/          # Page-specific components and content
+│   └── styles/         # Global styles
+├── .vscode/            # Editor configurations
+├── package.json        # Project dependencies and scripts
+├── astro.config.mjs    # Astro configuration
+└── tsconfig.json       # TypeScript configuration
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+
+## 🛠️ Features
+
+- **Astro Framework**: Lightning-fast static site generation.
+- **React Components**: Seamless integration with React for dynamic content.
+- **Tailwind CSS**: Fully responsive and customizable design.
+- **Dark Mode**: Sleek, modern dark theme by default.
+
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+Run the following commands from the root of the project:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command                   | Description                                      |
+|---------------------------|--------------------------------------------------|
+| `npm install`             | Install all dependencies                        |
+| `npm run dev`             | Start the development server at `localhost:4321`|
+| `npm run build`           | Build the project for production                |
+| `npm run preview`         | Preview the production build locally            |
+| `npm run astro ...`       | Run Astro CLI commands                          |
+| `npm run astro -- --help` | Get help with the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🌐 Live Demo
+
+Check out the live version of the project:
+[Legal Zacklack Live](https://legal.zacklack.de)
+
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request. Please ensure your changes align with the project's goals and coding standards.
+
+
+## 📄 License
+
+This project is open source and available under the [BSD 3-Clause License](LICENSE).
+
+
+## 👀 Learn More
+
+- [Astro Documentation](https://docs.astro.build)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
