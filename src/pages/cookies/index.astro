@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Hero from "./Hero.tsx"; // Keep .tsx extension for React component
+import Policy from "./Policy.tsx"; // Keep .tsx extension for React component
+import Footer from "../../components/Footer.tsx"; // Keep .tsx extension for React component
+---
+
+<Layout>
+  <main class="bg-black">
+    {/* Apply dark background */}
+    <Hero client:load />
+    {/* Add client:load directive for interactivity if needed */}
+    <Policy />
+    <Footer client:visible />
+    {/* Add client directive if Footer has interactive elements */}
+  </main>
+</Layout>
+
+<style is:global>
+  /* Ensure body takes full height if needed, though global.css might handle this */
+  body {
+    min-height: 100vh;
+    background-color: #000; /* Ensure background is black */
+  }
+</style>
