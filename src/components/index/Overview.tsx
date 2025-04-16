@@ -45,7 +45,7 @@ const Overview: React.FC = () => {
     return (
         <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-4 md:p-8">
             <div className="text-center mb-12">
-                 <img src="/media/Designer.png" alt="Logo" className="h-20 w-20 mx-auto mb-6" />
+                 <img src="/media/law-svgrepo-com.svg" alt="Logo" className="h-20 w-20 mx-auto mb-6" />
                 <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
                     Rechtliche Hinweise
                 </h1>
