@@ -9,7 +9,7 @@ const Hero = () => {
 
             <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <img src="/datenschutz/Designer.png" alt="Logo" className="h-20 w-20 mx-auto mb-8" />
+                    <img src="/media/Designer.png" alt="Logo" className="h-20 w-20 mx-auto mb-8" />
                     <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 pb-4 break-words">
                         Datenschutzerklärung
                     </h1>

@@ -17,7 +17,7 @@ const Hero = () => {
                         />
                         <div className="w-0.5 h-10 bg-neutral-300 mx-4" />
                         <img
-                            src="/cookies/Designer.png"
+                            src="/media/Designer.png"
                             alt="Second Logo"
                             className="h-20 w-20"
                         />
