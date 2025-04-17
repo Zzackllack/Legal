@@ -190,7 +190,7 @@ const Policy: React.FC = () => {
             <p className="mb-4">
                 <strong>Wir verarbeiten und speichern personenbezogene Daten grundsätzlich nur so lange, wie es für die jeweiligen Zwecke erforderlich ist.</strong> Entfällt der Verarbeitungszweck oder läuft eine vorgeschriebene Aufbewahrungsfrist ab, werden die personenbezogenen Daten routinemäßig gesperrt oder gelöscht. Die konkreten Speicherdauern haben wir in den vorigen Abschnitten jeweils angegeben, soweit möglich. Zur Zusammenfassung:
                 <ul className="list-disc pl-6 space-y-2 mt-2">
-                    <li><strong>Server-Logs (IP-Adressen):</strong> kurzfristige Speicherung, i.d.R. automatische Löschung oder Anonymisierung binnen [7] bis [30] Tagen, sofern kein sicherheitsrelevantes Ereignis eine längere Aufbewahrung erfordert.</li>
+                    <li><strong>Server-Logs (IP-Adressen):</strong> kurzfristige Speicherung, i.d.R. automatische Löschung oder Anonymisierung binnen 7 bis 30 Tagen, sofern kein sicherheitsrelevantes Ereignis eine längere Aufbewahrung erfordert.</li>
                     <li><strong>Zugriffsdaten Cloudflare:</strong> temporär, wenige Tage; Cookies (Cloudflare) verfallen nach Minuten.</li>
                     <li><strong>Authentifizierungsdaten:</strong> Sitzungscookies bis Logout/Expiry; Anmeldeprotokolle wenige Tage bis wenige Wochen bei Cloudflare.</li>
                     <li><strong>Analytics-Daten (Umami):</strong> unbegrenzt, jedoch anonymisiert (keine Personenbeziehbarkeit, daher keine Löschung erforderlich im DSGVO-Sinne; wir behalten uns vor, Altdaten zu entfernen).</li>
