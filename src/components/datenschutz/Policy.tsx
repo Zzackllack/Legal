@@ -23,21 +23,20 @@ const Policy: React.FC = () => {
                 Es ist kein Datenschutzbeauftragter bestellt, da die gesetzlichen Voraussetzungen einer Bestellpflicht nicht vorliegen (Art. 37 DSGVO). Bei Fragen zum Datenschutz können Sie sich daher direkt an den Verantwortlichen wenden.
             </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Erfassung und Speicherung personenbezogener Daten</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4">2. Begriffsbestimmungen</h2>
             <p className="mb-4">
-                Beim Aufrufen unserer Webseiten werden automatisch bestimmte Informationen durch den von Ihnen verwendeten Browser an den Server übermittelt. Hierzu zählen insbesondere:
-                <br /><br />
-                - Browsertyp und Browserversion
-                <br />
-                - Betriebssystem
-                <br />
-                - Referrer URL (zuvor besuchte Seite)
-                <br />
-                - Hostname des zugreifenden Rechners
-                <br />
-                - Datum und Uhrzeit des Zugriffs
-                <br /><br />
-                Diese Daten werden in sogenannten Server-Logfiles gespeichert. Die Speicherung erfolgt zur Sicherstellung eines störungsfreien Betriebs sowie zur Verbesserung unseres Angebots, und zwar auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse). Eine Identifizierung einzelner Nutzer erfolgt hierbei nicht.
+                Diese Datenschutzerklärung verwendet Begriffe im Sinne der DSGVO. Zur besseren Verständlichkeit werden wichtige datenschutzrechtliche Begriffe vorab erläutert (vgl. Art. 4 DSGVO):
+                <ul className="list-disc pl-6 space-y-2 mt-2">
+                    <li><strong>Personenbezogene Daten:</strong> Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Eine Person gilt als identifizierbar, wenn sie direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, einer Kennnummer, Standortdaten, einer Online-Kennung oder besonderen Merkmalen identifiziert werden kann. Dazu gehören z.B. Name, Anschrift, E-Mail-Adresse, aber auch IP-Adressen oder Gerätekennungen.</li>
+                    <li><strong>Betroffene Person:</strong> Jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene Daten verarbeitet werden (also z.B. Sie als Besucher*in dieser Website).</li>
+                    <li><strong>Verarbeitung:</strong> Jeder Vorgang im Zusammenhang mit personenbezogenen Daten, egal ob automatisiert oder manuell, wie etwa das Erheben, das Erfassen, die Organisation, das Speichern, das Anpassen oder Verändern, das Auslesen, Abfragen, Verwenden, Offenlegen durch Übermittlung, Verbreiten oder eine andere Form der Bereitstellung, der Abgleich, die Verknüpfung, Einschränkung, das Löschen oder die Vernichtung von Daten.</li>
+                    <li><strong>Verantwortlicher:</strong> Die Person oder Stelle, die allein oder gemeinsam über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet – hier also der oben genannte Webseitenbetreiber.</li>
+                    <li><strong>Auftragsverarbeiter:</strong> Eine Person oder Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet (Art. 4 Nr. 8 DSGVO). Beispiel: Ein externer Dienstleister, der in unserem Auftrag Daten hostet.</li>
+                    <li><strong>Empfänger:</strong> Eine Person oder Stelle, der personenbezogene Daten offengelegt werden – unabhängig davon, ob es sich um einen Dritten im datenschutzrechtlichen Sinne handelt oder nicht (Art. 4 Nr. 9 DSGVO). Behörden, die im Rahmen eines gesetzlichen Auftrags Daten erhalten, gelten jedoch nicht als Empfänger.</li>
+                    <li><strong>Dritter:</strong> Jede Person oder Stelle außerhalb der betroffenen Person, des Verantwortlichen, des Auftragsverarbeiters und der Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, Daten zu verarbeiten.</li>
+                    <li><strong>Einwilligung:</strong> Jede freiwillig und in informierter Weise durch eine eindeutige bestätigende Handlung abgegebene Willensbekundung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist (Art. 4 Nr. 11 DSGVO). Eine Einwilligung kann gemäß Art. 7 DSGVO jederzeit für die Zukunft widerrufen werden.</li>
+                </ul>
+                Hinweis: Weitere Begriffsbestimmungen können Art. 4 DSGVO entnommen werden. Wir verwenden die obigen Definitionen in dieser Datenschutzerklärung, um möglichst präzise auszudrücken, welche Daten wir wie verarbeiten.
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">Verwendung von Cookies und ähnlichen Technologien</h2>
