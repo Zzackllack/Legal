@@ -219,23 +219,21 @@ const Policy: React.FC = () => {
                 Zur Ausübung Ihrer Rechte können Sie sich jederzeit unter den oben angegebenen Kontaktdaten an uns wenden. Wir werden Ihr Anliegen unverzüglich, spätestens innerhalb der gesetzlich vorgesehenen Frist von einem Monat, bearbeiten und Ihnen Auskunft über die getroffenen Maßnahmen geben.
             </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Recht auf Datenübertragbarkeit</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4">14. Weitere Hinweise und Schlussbestimmungen</h2>
             <p className="mb-4">
-                Sie haben das Recht, Ihre personenbezogenen Daten, die auf Grundlage Ihrer Einwilligung oder zur Vertragserfüllung automatisiert verarbeitet werden, in einem gängigen, maschinenlesbaren Format zu erhalten und diese Daten an einen anderen Verantwortlichen zu übermitteln (vgl. Art. 20 DSGVO).
-            </p>
-
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Auskunft, Berichtigung und Löschung</h2>
-            <p className="mb-4">
-                Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten, deren Herkunft, Empfänger und den Zweck der Datenverarbeitung (vgl. Art. 15 DSGVO). Ferner haben Sie das Recht, unrichtige Daten berichtigen zu lassen sowie unter Beachtung gesetzlicher Vorgaben die Löschung Ihrer personenbezogenen Daten zu verlangen (vgl. Art. 16 und 17 DSGVO).
-            </p>
-
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Recht auf Einschränkung der Verarbeitung</h2>
-            <p className="mb-4">
-                Unter bestimmten Voraussetzungen haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Dies gilt beispielsweise, wenn Sie die Richtigkeit der Daten bestreiten oder wenn die Verarbeitung unrechtmäßig erfolgt ist. In diesen Fällen werden die Daten – abgesehen von der Speicherung – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen weiterverarbeitet.
-            </p>
-
-            <p className="mt-8 text-sm text-gray-400">
-                Stand: 08.02.2025
+                <strong>Keine automatisierten Entscheidungen im Einzelfall:</strong> Wir nutzen keine Ihrer personenbezogenen Daten für automatisierte Entscheidungen oder Profiling im Sinne des Art. 22 DSGVO, die Ihnen gegenüber rechtliche Wirkungen entfalten oder Sie ähnlich erheblich beeinträchtigen. Alle beschriebenen Verarbeitungen dienen den oben genannten Zwecken und beinhalten kein automatisiertes Entscheidungsfindungssystem.
+                <br /><br />
+                <strong>Datensicherheit:</strong> Wir schützen unsere Website und sonstigen Systeme durch technische und organisatorische Maßnahmen gegen Verlust, Zerstörung, Zugriff, Veränderung oder Verbreitung Ihrer Daten durch unbefugte Personen. Beispielsweise nutzen wir HTTPS-Verschlüsselung durchgängig (erkennbar am "https://" in der URL und dem Schloss-Symbol im Browser). Bitte aktualisieren Sie Ihren Browser regelmäßig, um bekannte Sicherheitslücken zu vermeiden, die außerhalb unseres Einflussbereichs liegen.
+                <br /><br />
+                <strong>Externe Links:</strong> Unser Webangebot enthält ggf. Links zu externen Webseiten Dritter (etwa zu Social-Media-Profilen des Betreibers oder zu Referenzen). Diese Seiten unterliegen eigenen Datenschutzbestimmungen. Für den Inhalt und die Datenverarbeitung auf verlinkten Seiten ist allein der jeweilige Betreiber verantwortlich. Beim Klick auf einen externen Link werden möglicherweise bereits Daten an den Zielseitenbetreiber übertragen (z.B. Referrer, Ihre IP-Adresse). Wir empfehlen, die Datenschutzinformationen der verlinkten Seiten zu konsultieren.
+                <br /><br />
+                <strong>Fragen zum Datenschutz:</strong> Sollten Sie Fragen oder Anliegen hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten durch unser Webangebot haben, zögern Sie bitte nicht, uns zu kontaktieren. Wir nehmen den Datenschutz ernst und beantworten gerne alle Ihre Anfragen.
+                <br /><br />
+                <em>Stand dieser Datenschutzerklärung: 17. April 2025.</em>
+                <br /><br />
+                Wir behalten uns vor, den Inhalt dieser Datenschutzerklärung jederzeit zu aktualisieren. Dies kann beispielsweise bei Anpassungen unseres Webangebots oder bei sich ändernder Rechtslage erforderlich werden. Die jeweils aktuelle Erklärung finden Sie auf dieser Seite. Bitte informieren Sie sich bei erneutem Besuch über Änderungen.
+                <br /><br />
+                Vielen Dank für Ihr Vertrauen und dafür, dass Sie sich die Zeit genommen haben, sich ausführlich über den Datenschutz auf zacklack.de zu informieren. Wir hoffen, wir konnten alle relevanten Informationen verständlich und dennoch juristisch präzise vermitteln. Bei Rückfragen stehen wir gerne zur Verfügung.
             </p>
         </section>
     );
