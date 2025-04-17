@@ -4,18 +4,12 @@ const Policy: React.FC = () => {
     return (
         <section id="policy-details" className="container mx-auto px-4 py-12 text-gray-200">
             <h1 className="text-6xl font-bold mb-6">Datenschutzerklärung</h1>
-            <p className="mb-4">
-                Diese Datenschutzerklärung informiert in umfassender und detaillierter Weise über Art, Umfang und Zweck der Erhebung, Verarbeitung und Nutzung personenbezogener Daten im Rahmen der Bereitstellung und Nutzung sämtlicher Webseiten, die unter der Second-Level-Domain{" "}
-                <strong>zacklack.de</strong> betrieben werden. Sie basiert auf den Vorgaben der Datenschutz-Grundverordnung (DSGVO; vgl. Art. 4 ff. DSGVO), des Bundesdatenschutzgesetzes (BDSG; insbesondere § 26 BDSG), des Telemediengesetzes (TMG; vgl. § 13 TMG), des Telekommunikation-Telemedien-Datenschutz-Gesetzes (TTDSG) sowie der ePrivacy-Richtlinie (2002/58/EG). Alle hier getroffenen Maßnahmen erfolgen im Einklang mit den gesetzlichen Vorgaben.
-            </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Allgemeine Hinweise und Pflichtinformationen</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4">1. Verantwortliche Stelle und Kontakt</h2>
             <p className="mb-4">
-                Personenbezogene Daten im Sinne dieser Erklärung sind alle Informationen, welche sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (vgl. Art. 4 DSGVO). Hierzu zählen insbesondere Name, Anschrift, E-Mail-Adresse, Telefonnummer, IP-Adresse sowie alle weiteren Daten, die eine Identifizierung ermöglichen. Die Erhebung, Verarbeitung und Nutzung dieser Daten erfolgt ausschließlich auf Basis der in Art. 6 DSGVO genannten Rechtsgrundlagen.
+                Verantwortlicher im Sinne des Art. 4 Nr. 7 DSGVO (Datenschutz-Grundverordnung) für die Datenverarbeitungen auf der Second-Level-Domain zacklack.de einschließlich aller zugehörigen Subdomains ist:                
                 <br /><br />
-                <strong>Verantwortlicher im Sinne der DSGVO (Art. 4 DSGVO):</strong>
-                <br />
-                <em>Name:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
+                <em>Name:</em> Cédric
                 <br />
                 <em>Anschrift:</em> Auf Anfrage, kontaktieren sie uns unter unserer E-Mail Adresse.
                 <br />
@@ -26,8 +20,7 @@ const Policy: React.FC = () => {
                     webmaster@zacklack.de
                 </a>
                 <br /><br />
-                Diese Datenschutzerklärung gilt für sämtliche Datenverarbeitungen im Zusammenhang mit der Nutzung unserer Webangebote unter der Domain{" "}
-                <strong>zacklack.de</strong>.
+                Es ist kein Datenschutzbeauftragter bestellt, da die gesetzlichen Voraussetzungen einer Bestellpflicht nicht vorliegen (Art. 37 DSGVO). Bei Fragen zum Datenschutz können Sie sich daher direkt an den Verantwortlichen wenden.
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">Erfassung und Speicherung personenbezogener Daten</h2>
